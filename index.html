@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>AcessMais | Acessibilidade</title>
+</head>
+
+<body>
+<!-- Menu inicial -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="d-inline-block align-top icone_acessibilidade" src="./img/img_acessMais.jpg"
+          alt="Ícone símbolo da acessibilidade">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse barra_menu justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Acessibilidade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="deficiencia.html">Deficiências</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+ 
+</nav> 
+<!-- Fim Menu -->
+
+ 
+  <main>
+    <article class="container tope">
+      <section>
+        <h1 class="my-4 text-center">Acessibilidade hoje, amanhã e sempre!</h1>
+        <h3 id="conteudo_index" class="mt-5">Quero fazer um site acessível a todos, mas por onde começar?</h3>
+        <h4 class="mt-3"> Entendendo um pouco mais sobre o assunto:</h4>
+        <p>O que é acessibilidade na web?
+          de acordo com <a
+            href="https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html#:~:text=De%20acordo%20com%20documentos%20da,tamb%C3%A9m%20contribuir%20com%20a%20web%20.">Cartilha
+            de Acessibilidade na Web fasciculo I</a> disponibilizada pela W3C define que
+          ”Acessibilidade na web significa que pessoas com deficiência podem usar a web. Mais especificamente, a
+          acessibilidade na web significa que pessoas com deficiência podem perceber, entender, navegar, interagir e
+          contribuir para a web. E mais. Ela também beneficia outras pessoas, incluindo pessoas idosas com capacidades
+          em mudança devido ao envelhecimento.
+          Se for aplicada a definição geral de acessibilidade ao ambiente específico da web, pode-se dizer que se trata
+          da possibilidade e da condição de alcance, percepção e entendimento para a utilização, em igualdade de
+          oportunidades, com segurança e autonomia, dos sítios e serviços disponíveis na web."
+        </p>
+        <p>De acordo com a cartilha das <a
+            href="https://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-II.pdf">Acessibilidade
+            para Conteúdo Web fasciculo II</a> as diretrizes estão organizadas segundo quatro princípios, que constituem
+          o
+          fundamento
+          da acessibilidade na Web. São eles: </p>
+        <ul>
+          <li> Percepção: toda informação e componentes da interface devem ser apresentados de uma forma que os usuários
+            possam perceber.</li>
+          <li> Operável: os componentes da interface devem ser operáveis. Ou seja, os usuários devem ser capazes de
+            operar a
+            interface e essa não pode requisitar interações que o usuário não pode executar.</li>
+          <li> Compreensão: as informações e a interface do usuário devem ser compreensíveis.</li>
+          <li>Robustez: o conteúdo deve ser robusto o suficiente para que seja interpretado de forma concisa por uma
+            grande
+            variedade de agentes de usuários, incluindo tecnologias assistivas (ex: leitor de tela).</li>
+        </ul>
+        <p><a href="deficiencia.html">Deixamos aqui</a> um espaço para você conhecer os diferentes tipos de deficiências
+          para pensar a inclusão de todos.</p>
+      </section>
+
+      <section>
+        <h3 class="mt-5">HTML Semântico</h3>
+        <p>
+          O HTML semântico é a forma de deixar o site com suas informações bem explicadas e compreensíveis para o
+          computador, ajudando até mesmo em sua busca no Google e facilitando o entendimento de leitores de
+          acessibilidade.
+        </p>
+        <p>É importante utilizar as tags específicas para cada tipo de conteúdo que deseja colocar na página, por
+          exemplo:</p>
+
+        <h4 class="my-3">A tag &#60header&#62</h4>
+        <p> Por exemplo, temos uma tag específica para o cabeçalho da página, a tag &#60header&#62 , auxiliando para
+          casos em que você possui uma logo ou nome da página em destaque, ou até mesmo título de artigo.</p>
+
+        <h4 class="my-3">A tag &#60aside&#62</h4>
+        <p> Temos também a tag &#60aside&#62, essa tag indica conteúdos laterais, geralmente utilizada para menus
+          laterais.
+          Essa tag nos ajuda a definir, até mesmo para a própria compreensão do código, os conteúdos tratados nas
+          laterais da página.</p>
+
+        <h4 class="my-3">A tag &#60section&#62</h4>
+        <p>Com a tag &#60section&#62, que define seções de conteúdos — seja dentro de um texto ou conteúdo principal,
+          conseguimos dividir melhor esse conteúdo, deixando-o melhor organizado.
+          Geralmente trabalhamos com um título dentro dessa section, dando ênfase ao conteúdo dela.
+          as &#60section&#62 conseguem separar os conteúdos de forma diferente das &#60div&#62, já que para utilizar um
+          título &#60h1 a h6&#62 em uma &#60div&#62 não podemos usar o mesmo titulo para varias &#60div&#62.
+
+          Isso ocorre por que, ao passar pela pesquisa do google, algumas informações da página na busca poderiam se
+          perder.
+
+          Já com a &#60section&#62 podemos utilizar o mesmo título, pois as &#60section&#62 separam seus conteúdos por
+          seções. Portanto, quando pesquisado em mecanismos de busca, não se perdem informações.</p>
+
+        <h4 class="my-3">A tag &#60article&#62</h4>
+        <p> A tag &#60article&#62, como o próprio nome diz, é um artigo dentro do conteúdo. Pode ser uma citação de
+          textos externos, ou referências, geralmente também usamos um título para essa tag.</p>
+
+        <h4 class="my-3">A tag &#60nav&#62</h4>
+        <p>A tag &#60nav&#62 usamos para menus interativos, como por exemplo menus que encaminham a página de “sobre” ou
+          “produtos”. O <nav> pode ser usado em qualquer momento na página, onde tenhamos agrupamento de links.</p>
+
+        <h4 class="my-3">A tag &#60main&#62</h4>
+        <p>A tag &#60main&#62 é a tag onde colocamos o conteúdo principal da página. Para melhor uso, só devemos ter um
+          &#60main&#62 por página, onde iremos apontar o conteúdo de maior relevância, sendo textos, imagens, links,
+          etc.</p>
+
+        <h4 class="my-3">A tag &#60figure&#62</h4>
+        <p>A tag &#60figure&#62 é utilizada para a inserção de figuras na página. Juntamente com essa tag trabalhamos
+          com o alt, onde descrevemos o que há na imagem, facilitando então a acessibilidade da página, para os leitores
+          de tela.
+
+          Além disso, se por algum motivo a imagem não abrir, haverá uma descrição dela para quem estiver acessando
+          saber sobre o que se trata.</p>
+
+      </section>
+
+      <section>
+        <h3 class="mt-5">Ferramenta VLibras</h3>
+        <h4 class="my-3">ferramenta gratuita e de código aberto que traduz conteúdos digitais (texto, áudio e vídeo) em
+          Português
+          para Libras</h4>         
+          <div class="container "> 
+           <p>Código HTML para inclusão de leitor de libras no site </p>
+           <img class="img-fluid" src="./img/libras.png" alt="código da ferramenta de libras">
+        </div>
+      </section>
+
+      <section>
+        <h3 class="my-3">Pensando na dislexia</h3>
+        <p>Algumas pessoas que sofrem com a dislexia e não conseguem perceber ou associar a dificuldade como um
+          distúrbio. Esse fato pode causar frustração, sentimento de incapacidade e faz com que se sintam
+          desvalorizados, acarretando ainda inúmeros problemas como ansiedade, depressão e desmotivação (TELES, 2004).
+
+          Por ser tratar de uma disfunção que está diretamente relacionada a parte do cérebro responsável pela
+          linguística, a leitura acaba sendo um dos processos mais difíceis.
+
+          Pode-se afirmar que a leitura integra dois processos cognitivos, distintos e indissociáveis: a decodificação e
+          a compreensão da mensagem escrita. Portanto, é preciso ler para que seja possível compreender. A dificuldade
+          de escrever está relacionada ao problema que o disléxico possui em ler e a confusão que essa leitura causa.
+          Dentre as dificuldades da dislexia, a leitura e a interpretação são consideradas mais complicadas, confira
+          algumas das dificuldades: </p>
+          
+        <ul>         
+          <li>Dificuldades com a linguagem e escrita;</li>
+          <li>Dificuldades em escrever;</li>
+          <li> Dificuldades com a ortografia;
+          </li>
+          <li> Lentidão na aprendizagem da leitura;
+          </li>
+          <li> Dificuldades com memória de curto prazo e com organização;
+          </li>
+          <li> Dificuldades com a língua falada;
+          </li>
+          <li> Dificuldades com a percepção espacial;
+          </li>
+          <li> Confusão entre direita e esquerda.
+          </li>
+          <li> Dificuldades com a percepção espacial;
+          </li>
+          <li>Quando usuários disléxicos leem um texto, às vezes experimentam efeitos de distorção visual. Esses efeitos
+            variam em grau de pessoa para pessoa, mas podem tornar a leitura muito mais difícil.</li>
+        </ul>
+        <p>
+          Boas práticas que podemos adotar para projetar interfaces acessíveis a pessoas com dislexia.
+
+          Não utilizar textos justificados; texto justificado dificulta a leitura não apenas de usuários disléxicos, mas
+          também de não disléxicos. Isso acontece porque são criados grandes espaços irregulares entre as palavras, que
+          quando se alinham um em cima do outro, cria-se um “rio” de espaço branco.
+
+          Não utilizar parágrafos longos; usuários disléxicos precisam de mais quebras entre os assuntos do que usuários
+          não
+          disléxicos. Quebrar o seu texto, exibindo uma ideia por parágrafo, torna a leitura muito mais fácil.
+
+          Utilizar fontes semi serifadas ou sem serifas; fontes com serifa tem ganchos nas extremidades dos traçados das
+          letras. Podem parecer decorativos, mas costumam causar problemas de leitura. Portanto, uma fonte semi serifada
+          permitiria aos usuários disléxicos ver o formato das letras mais claramente. A falta desses ganchos aumenta o
+          espaçamento entre as letras e as tornam mais distinguíveis.
+
+          Utilizar textos em caixa alta somente em títulos e chamadas. Textos escritos em caixa alta, chamam a atenção
+          do
+          usuário se usado em títulos, chamadas ou apenas em uma palavra específica, mas já pensou ler um texto inteiro
+          com
+          letras maiúsculas? Então um texto em caixa alta (uppercase) pode causar desconforto na leitura e ainda
+          dificultar
+          o entendimento das letras, fazendo com que um usuário perca o foco da leitura.
+
+          Utilizar tamanho de fonte, para textos, de 10 a 15 pontos.
+        </p>
+        <p>Saiba mais sobre as fontes <a href="https://www.dyslexiefont.com/">https://www.dyslexiefont.com/</a></p>
+      </section>
+
+      <h3 class="mt-5">Ferramentas e soluções simples que ajudam na acessibilidade do usuário</h3>
+      <section>
+        <h4>Contrast checker</h4>
+        <p> Verifica o constraste das cores de uma determinada página. <a
+            href="https://contrastchecker.com">https://contrastchecker.com</a></p>
+      </section>
+
+      <section>
+        <h4>Color blind</h4>
+        <p>Verifica e simula a página para uma noção prática de como um usuário daltônico enxergaria. <a
+            href="https://www.toptal.com/designers/colorfilter">https://www.toptal.com/designers/colorfilter</a></p>
+      </section>
+
+      <section>
+        <h4>Browse aloud </h4>
+        <p>Ferramenta que adiciona fala, leitura e tradução para websites. <a
+            href="https://www.texthelp.com/en-gb/products/reachdeck/browsealoud-is-now-the-reachdeck-toolbar/">https://www.texthelp.com/en-gb/products/reachdeck/browsealoud-is-now-the-reachdeck-toolbar/</a>
+        </p>
+      </section>
+
+      <section>
+        <h4>Adobe Color - ColorAccessibility</h4>
+        <p class="mb-5">Ferramenta para ajudar na escolha de cores pensando no daltonismo, contraste, problemas de visão, etc <a
+            href="https://color.adobe.com/pt/create/color-accessibility">https://color.adobe.com/pt/create/color-accessibility</a>
+        </p>
+      </section>
+    </article>
+  </main>
+
+
+  <footer class="rodape">
+    <h4 class="m-0 text-center">&copy; LeandroDEV </h4>
+    
+  </footer>
+
+  <!-- Audio -->
+  <script src="https://reader-player.herokuapp.com/js/reader-page.min.js"></script>
+     <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+       <div vw-plugin-wrapper>
+       <div class="vw-plugin-top-wrapper"></div>
+      </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
